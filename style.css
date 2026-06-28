@@ -1,135 +1,109 @@
+/* RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
+/* BODY */
 body {
-    background: #f4f4f4;
-    color: #333;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* NAVBAR */
+/* HEADER */
 header {
-    background: #111;
-    color: white;
-    padding: 15px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 22px;
+  margin-bottom: 10px;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #00bcd4;
+nav a:hover {
+  color: #00bcd4;
 }
 
 /* HERO SECTION */
 .hero {
-    height: 60vh;
-    background: linear-gradient(to right, #007bff, #00c6ff);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+  background: linear-gradient(to right, #00bcd4, #2196f3);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
 }
 
 .hero h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .hero button {
-    padding: 10px 20px;
-    border: none;
-    background: white;
-    color: #007bff;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  background: white;
+  color: #2196f3;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-/* SECTIONS */
-section {
-    padding: 60px 20px;
-    text-align: center;
+.hero button:hover {
+  background: #eee;
 }
 
-h2 {
-    margin-bottom: 20px;
+/* ABOUT */
+.about {
+  padding: 50px 20px;
+  text-align: center;
+  background: white;
+}
+
+.about h2 {
+  margin-bottom: 15px;
 }
 
 /* SERVICES */
 .services {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  padding: 50px 20px;
+  text-align: center;
 }
 
-.service-box {
-    background: white;
-    padding: 20px;
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+.services h2 {
+  margin-bottom: 20px;
 }
 
-/* CONTACT */
-form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: auto;
-}
-
-input, textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background: #007bff;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background: #0056b3;
+.box {
+  display: inline-block;
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 /* FOOTER */
 footer {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
 }
