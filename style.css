@@ -5,10 +5,8 @@
     font-family: Arial, sans-serif;
 }
 
-/* BODY */
 body {
     background: #f2f6ff;
-    color: #222;
 }
 
 /* HEADER */
@@ -19,67 +17,73 @@ header {
     background: #0f172a;
     padding: 15px 30px;
     color: white;
-    position: sticky;
-    top: 0;
 }
 
+/* LOGO */
 .logo {
     font-size: 22px;
     font-weight: bold;
-    letter-spacing: 1px;
 }
 
-nav a {
+/* NAV */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-    margin-left: 15px;
     font-size: 15px;
     transition: 0.3s;
 }
 
-nav a:hover {
+nav ul li a:hover {
     color: #38bdf8;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
     text-align: center;
-    padding: 90px 20px;
+    padding: 100px 20px;
     background: linear-gradient(135deg, #2563eb, #06b6d4);
     color: white;
+    margin: 20px;
+    border-radius: 15px;
 }
 
 .hero h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 38px;
 }
 
 .hero p {
+    margin-top: 10px;
     font-size: 18px;
-    opacity: 0.9;
 }
 
+/* BUTTON */
 .btn {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 25px;
     background: white;
-    color: #000;
-    text-decoration: none;
+    color: black;
     border-radius: 8px;
+    text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .btn:hover {
-    background: #000;
+    background: black;
     color: white;
 }
 
 /* SECTIONS */
 .about, .services {
-    padding: 60px 20px;
     text-align: center;
+    padding: 60px 20px;
 }
 
 .about h2, .services h2 {
@@ -87,7 +91,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-/* SERVICES BOX */
+/* SERVICE BOX */
 .box-container {
     display: flex;
     justify-content: center;
@@ -111,18 +115,11 @@ nav a:hover {
     background: #e0f2fe;
 }
 
-/* CONTACT STYLE (same as about but cleaner look) */
-.about p {
-    margin-top: 8px;
-    font-size: 16px;
-}
-
 /* FOOTER */
 footer {
-    background: #0f172a;
-    color: white;
     text-align: center;
     padding: 15px;
+    background: #0f172a;
+    color: white;
     margin-top: 20px;
-    font-size: 14px;
 }
