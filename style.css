@@ -54,3 +54,24 @@ footer {
   text-align: center;
   padding: 10px;
 }
+nav a:hover {
+  color: #00d4ff;
+  transition: 0.3s;
+}
+
+.hero button {
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
