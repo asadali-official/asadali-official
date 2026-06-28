@@ -32,8 +32,7 @@ nav a:hover {
 
 /* BODY spacing for fixed header */
 body {
-  padding-top: 70px;
-  background: #f4f4f4;
+  background: red !important;
 }
 
 /* HERO */
